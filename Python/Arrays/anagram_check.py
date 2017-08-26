@@ -1,3 +1,5 @@
+# Given two arrays, check if they are anagrams of each other
+
 def check_anagram(list1, list2):
     list1.sort()
     list2.sort()
