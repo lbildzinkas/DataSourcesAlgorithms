@@ -14,14 +14,25 @@
     <SUITE FILE_PATH="coverage/Python$array_pair_sum.coverage" NAME="array_pair_sum Coverage Results" MODIFIED="1503747641001" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python$largest_continuous_sum.coverage" NAME="largest_continuous_sum Coverage Results" MODIFIED="1503765801189" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Arrays" />
     <SUITE FILE_PATH="coverage/Python$anagram_check.coverage" NAME="anagram_check Coverage Results" MODIFIED="1503743874678" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Python$sentence_reversal.coverage" NAME="sentence_reversal Coverage Results" MODIFIED="1503783113429" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Arrays" />
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="largest_continuous_sum.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="largest_continuous_sum.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Arrays/largest_continuous_sum.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="63" lean-forward="true" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="63" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sentence_reversal.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Arrays/sentence_reversal.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="2" lean-forward="false" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -44,6 +55,7 @@
         <option value="$PROJECT_DIR$/Arrays/array_pair_sum.py" />
         <option value="$PROJECT_DIR$/Arrays/finder.py" />
         <option value="$PROJECT_DIR$/Arrays/largest_continuous_sum.py" />
+        <option value="$PROJECT_DIR$/Arrays/sentence_reversal.py" />
       </list>
     </option>
   </component>
@@ -114,7 +126,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.largest_continuous_sum">
+  <component name="RunManager" selected="Python.sentence_reversal">
     <configuration name="anagram_check" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -187,18 +199,38 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <list size="4">
+    <configuration name="sentence_reversal" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Arrays" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Python" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Arrays/sentence_reversal.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.anagram_check" />
       <item index="1" class="java.lang.String" itemvalue="Python.array_pair_sum" />
       <item index="2" class="java.lang.String" itemvalue="Python.finder" />
       <item index="3" class="java.lang.String" itemvalue="Python.largest_continuous_sum" />
+      <item index="4" class="java.lang.String" itemvalue="Python.sentence_reversal" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Python.largest_continuous_sum" />
-        <item index="1" class="java.lang.String" itemvalue="Python.finder" />
-        <item index="2" class="java.lang.String" itemvalue="Python.array_pair_sum" />
-        <item index="3" class="java.lang.String" itemvalue="Python.anagram_check" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.sentence_reversal" />
+        <item index="1" class="java.lang.String" itemvalue="Python.largest_continuous_sum" />
+        <item index="2" class="java.lang.String" itemvalue="Python.finder" />
+        <item index="3" class="java.lang.String" itemvalue="Python.array_pair_sum" />
+        <item index="4" class="java.lang.String" itemvalue="Python.anagram_check" />
       </list>
     </recent_temporary>
   </component>
@@ -248,7 +280,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="13" />
+      <option name="time" value="18" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -281,6 +313,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="63" lean-forward="true" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="308" column="0" lean-forward="false" selection-start-line="308" selection-start-column="0" selection-end-line="308" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Arrays/sentence_reversal.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="2" lean-forward="false" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="37" />
           <folding />
         </state>
       </provider>
