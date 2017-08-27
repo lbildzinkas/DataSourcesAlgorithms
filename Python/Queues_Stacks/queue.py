@@ -6,14 +6,10 @@ class Queue:
         return len(self.items) == 0
 
     def enqueue(self, item):
-        self.items.append(item)
+        self.items.insert(0, item)
 
     def dequeue(self):
-        if self.isEmpty():
-            return
-        ret = self.items[0]
-        self.items = self.items[1:len(self.items)]
-        return ret
+        return self.items.pop()
 
     def size(self):
         return len(self.items)
