@@ -14,12 +14,3 @@ class Queue:
     def size(self):
         return len(self.items)
 
-
-que = Queue()
-que.enqueue(1)
-print(que.size())
-que.enqueue(2)
-print(que.size())
-print(que.dequeue())
-print(que.size())
-
