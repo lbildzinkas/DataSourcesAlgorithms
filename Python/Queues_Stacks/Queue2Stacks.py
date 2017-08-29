@@ -14,7 +14,10 @@ class Queue2Stacks(object):
 
     def dequeue(self):
         out = self.stack1.pop()
+        self._rebalanceStacks()
+        return out
 
+    def _rebalanceStacks(self):
         if not self.stack2 == []:
 
             for i in range(len(self.stack2)-1):
@@ -26,8 +29,6 @@ class Queue2Stacks(object):
                 self.stack2.append(self.stack1.pop())
 
             self.stack1.append(temp)
-
-        return out
 
 
 queue = Queue2Stacks()
